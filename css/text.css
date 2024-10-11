@@ -1,0 +1,66 @@
+body{
+    margin: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    line-height: 24px;
+    background-color: rgb(240, 232, 238);
+}
+header{
+    text-align: center;
+    padding: 16px;
+    background-color: black;
+    margin: 0 0 16px;
+}
+header h1{
+    color: beige;
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+main{
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 16px;
+}
+main img{
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 6px 10px rgb(73, 73, 73);
+}
+.image-text{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+}
+.image-text h1{
+    line-height: 48px;
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@media (max-width: 1024px) {
+    .image-text{
+        flex-direction: column;
+    }
+}
+.break{
+    margin: 72px 0 0 ;
+}
+.break-point{
+    margin: 72px 0 0 ;
+}
+.in-sentence{
+    width: 28%;
+}
+h2{
+    font-family : "Alfa Slab One", serif;
+    font-weight : 400;
+    font-style : normal;
+    text-decoration:underline
+}
+.interconnected{
+    width:50%;
+}
