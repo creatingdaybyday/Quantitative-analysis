@@ -64,3 +64,16 @@ h2{
 .interconnected{
     width:50%;
 }
+.gender{
+    width:25%;
+}
+.cake{
+    width:20%;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    
+}
